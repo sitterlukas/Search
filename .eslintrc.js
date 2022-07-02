@@ -23,5 +23,9 @@ module.exports = {
     'react/no-unused-state': 'off',
     'react/jsx-filename-extension': 'off',
     'react/destructuring-assignment': 'off',
+    'max-len': 'off',
+    'react/prefer-stateless-function': 'off',
+    'react/prop-types': 'off',
+    'react/function-component-definition': 'off',
   },
 };
