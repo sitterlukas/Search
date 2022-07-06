@@ -6,6 +6,8 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -16,6 +18,7 @@ module.exports = {
   },
   plugins: [
     'react',
+    '@typescript-eslint',
   ],
   rules: {
     'no-undef': 'off',
@@ -27,5 +30,6 @@ module.exports = {
     'react/prefer-stateless-function': 'off',
     'react/prop-types': 'off',
     'react/function-component-definition': 'off',
+    'import/prefer-default-export': 'off',
   },
 };
